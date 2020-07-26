@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Choice = ({ choice }) => {
+const Choice = ({ play }) => {
      return (
-          <li>{ choice.name }</li>
+          <li className="choice-display"><span role="img" aria-label={play}>{play}</span></li>
      )
 }
 
