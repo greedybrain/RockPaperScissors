@@ -1,17 +1,14 @@
 export const plays = [
      {
-          rock: {
-               name: "ROCK",
-          }
+          name: "ROCK",
+          gesture: '✊🏽'
      },
      {
-          paper: {
-               name: "PAPER",
-          }
+          name: "PAPER",
+          gesture: '✋🏽'
      },
      {
-          scissors: {
-               name: "SCISSORS",
-          }
+          name: "SCISSORS",
+          gesture: '✌🏽'
      },
 ]
